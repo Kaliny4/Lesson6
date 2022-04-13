@@ -42,6 +42,8 @@ table {
 	border-spacing: 0;
 }
 
+/* end reset */
+
 body {
 	font-family:'Poppins', sans-serif;
 	}
@@ -66,11 +68,11 @@ a {
 	color: #FFFFFF;
 }
 
-header li a {
+header a.navlist {
 	font-size: 18px;
 }
 
-h4 {
+main h4.title {
 	font-weight: 700;
 	font-size: 48px;
 	line-height: 72px;
@@ -85,7 +87,7 @@ h1 {
 	text-stroke: 1px white;
 }
 
-main a {
+main a.announce {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
@@ -98,7 +100,7 @@ main p.opacity {
 	opacity: 0.7;
 }
 
-main li {
+main ul li.facts{
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 27px;
@@ -117,13 +119,13 @@ main a.violet {
 	color: #7A66CC;
 }
 
-main ol li a {
+main ol li a.tracks {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 27px;
 }
 
-h5 {
+main h5.title1 {
 		font-weight: 600;
 	font-size: 24px;
 	line-height: 36px;
@@ -135,7 +137,7 @@ main button {
 	line-height: 21px;
 }
 
-h6 {
+main h6.title2 {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 36px;
@@ -169,6 +171,7 @@ main button.tickets {
 	font-size: 16px;
 	line-height: 24px;
 	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 span.infoname {
@@ -196,3 +199,9 @@ small {
 	opacity: 0.5;
 }
 
+main img.announce {
+	width: 350px;
+	height: 280px;
+	left: 405px;
+	top: 4182px;
+}
