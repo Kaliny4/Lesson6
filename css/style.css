@@ -46,21 +46,41 @@ table {
 
 body {
 	font-family:'Poppins', sans-serif;
-	}
-
-main {
+	width: 1920px;
+	left: 0px;
+	top: 1000px;
 	background: #1C1B21;
+}
+
+main{
 	color: #FFFFFF;
+	clear: both;
 }
 
 footer {
 	background: #1C1B21;
 	color: #FFFFFF;
+	}
+
+body header {
+position: absolute;
+width: 1920px;
+overflow: auto;
+height: 1000px;
+left: 0px;
+top: 0px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, 
+#1C1B21 92.19%), url(../media/background.png);
+	}
+
+header div.container {
+	width: 100%;
+	max-width: 552px;
+	
 }
 
-header {
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, 
-	#1C1B21 92.19%);
+body header h4.clearfix {
+	clear: both;
 }
 
 a {
@@ -68,17 +88,205 @@ a {
 	color: #FFFFFF;
 }
 
-header a.navlist {
-	font-size: 18px;
+header img.logo {
+	position: absolute;
+	float: left;
+	width: 143px;
+	left: 500px;
+	top: 42px;
 }
 
-main h4.title {
+main img.img1 {
+	position: absolute;
+	width: 350px;
+	left: 405px;
+	top: 851px;
+}
+
+main img.img12 {
+	position: absolute;
+	width: 350px;
+	left: 405px;
+	top: 1061px;
+	opacity: 0.7;
+	border-radius: 20px 0px;
+}
+
+main img.img2 {
+	position: absolute;
+	width: 350px;
+	left: 785px;
+	top: 851px;
+	}
+
+main img.img22 {
+	position: absolute;
+	width: 350px;
+	left: 785px;
+	top: 1061px;
+	opacity: 0.7;
+	border-radius: 20px 0px;
+}
+
+main img.img3 {
+	position: absolute;
+	width: 350px;
+	left: 1165px;
+	top: 851px;
+}
+
+main img.img33 {
+	position: absolute;
+	width: 350px;
+	left: 1165px;
+	top: 1061px;
+	opacity: 0.7;
+	border-radius: 20px 0px;
+}
+
+main img.waveform1 {
+	float: left;
+	position: absolute;
+	width: 64px;
+	left: 405px;
+	top: 1352px;
+}
+
+main img.waveform2 {
+	position: absolute;
+	float: right;
+	width: 64px;
+	left: 975px;
+	top: 2760px;
+}
+
+
+main img.backcar {
+	position: absolute;
+	float: right;
+	width: 350px;
+	left: 1165px;
+	top: 1457px;
+	border-radius: 30px 0px;
+}
+main img.headphone {
+	position: absolute;
+	float: right;
+	width: 350px;
+	left: 1070px;
+	top: 1391px;
+	border-radius: 30px 0px;
+}
+
+main img.mtv {
+	position: absolute;
+	float: right;
+	width: 370px;
+	left: 1065px;
+	top: 2075px;
+	border-radius: 30px 0px;
+}
+
+main img.rectanglemtv {
+	position: absolute;
+	width: 1110px;
+	left: 405px;
+	top: 2160px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 30px 0px;
+}
+
+main img.line {
+	position: absolute;
+	width: 520px;
+	left: 485px;
+	top: 2371px;
+	opacity: 0.6;
+	border: 1px solid #FFFFFF;
+}
+
+main img.circle {
+	position: absolute;
+	float: left;
+	width: 510px;
+	left: 405px;
+	top: 2775px;
+}
+
+
+footer img.logofooter {
+	position: absolute;
+	width: 143px;
+	left: 848px;
+	top: 4835px;
+}
+
+header a.navlist {
+	position: relative;
+	font-size: 18px;
+	float: right;
+	width: 16px;
+	left: 788px;
+	top: 8px;
+	margin: 38px;
+}
+
+main h4.title1 {
 	font-weight: 700;
 	font-size: 48px;
 	line-height: 72px;
-	}
+	position:absolute;
+	float: left;
+	width: 310px;
+	left: 499px;
+	top: 1330px;
+}
 
+main h4.title2 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 72px;
+	position: absolute;
+	float: right;
+	width: 310px;
+	left: 1069px;
+	top: 2738px;
+}
+
+header h4.title {
+	position: absolute;
+	width: 270px;
+	left: 405px;
+	top: 412px;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 72px;
+	color: #FFFFFF;
+		}
+
+header div.music {
+	position: absolute;
+	width: 887px;
+	height: 0px;
+	left: 472px;
+	top: 708px;
+}
+
+main div.music1 {
+	position: absolute;
+	float: right;
+	width: 25px;
+	left: 997px;
+	top: 2872px;
+	background: #1C1B21;
+}
+		
 h1 {
+	position: absolute;
+	width: 800px;
+	left: 405px;
+	top: 494px;
 	font-weight: 700;
 	font-size: 100px;
 	line-height: 150px;
@@ -87,10 +295,35 @@ h1 {
 	text-stroke: 1px white;
 }
 
-main a.announce {
+main a.announce1 {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 24px;
+	position: absolute;
+	width: 310px;
+	left: 425px;
+	top: 1082px;
+	
+}
+
+main a.announce2 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	position: absolute;
+	width: 310px;
+	left: 805px;
+	top: 1082px;
+}
+
+main a.announce3 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	position: absolute;
+	width: 310px;
+	left: 1185px;
+	top: 1082px;
 }
 
 main p.opacity {
@@ -98,18 +331,66 @@ main p.opacity {
 	font-size: 16px;
 	line-height: 24px;
 	opacity: 0.7;
+	position: absolute;
+	float: left;
+	width: 540px;
+	left: 405px;
+	top: 1462px;
 }
 
-main ul li.facts{
+main ul li.facts1{
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 27px;
+	position: absolute;
+	float: left;
+	width: 195px;
+	left: 455px;
+	top: 1835px;
+}
+
+main ul li.facts2{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	position: absolute;
+	float: left;
+	width: 183px;
+	left: 455px;
+	top: 1895px;
+}
+
+main ul li.facts3{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	position: absolute;
+	float: left;
+	width: 146px;
+	left: 740px;
+	top: 1835px;
+}
+
+main ul li.facts4{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	position: absolute;
+	float: left;
+	width: 198px;
+	left: 740px;
+	top: 1895px;
 }
 
 main p.noopacity {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 27px;
+	position: absolute;
+	float: right;
+	width: 520px;
+	left: 485px;
+	top: 2210px;
 }
 
 main a.violet {
@@ -117,18 +398,72 @@ main a.violet {
 	font-size: 18px;
 	line-height: 27px;
 	color: #7A66CC;
+	position: absolute;
+	float: left;
+	width: 126px;
+	left: 485px;
+	top: 2396px;
 }
 
 main ol li a.tracks {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 27px;
+	float: right;
+}
+
+main div.listoftracks {
+	position: absolute;
+	width: 505px;
+	left: 1010px;
+	top: 2947px;
+	background: #1C1B21;
+}
+
+main div.container1 {
+	display: inline;
+	vertical-align: bottom;
+	width: 100%;
+	max-width: 552px;
+	position: absolute;
+	left: 405px;
+	top: 3502px;
+	border-radius: 30px 0px;
+
+}
+
+main div.container2 {
+	width: 100%;
+	max-width: 552px;
+	position: relative;
+	left: 405px;
+	top: 4182px;
+	border-radius: 30px 0px;
+	margin-right: 38px;
 }
 
 main h5.title1 {
-		font-weight: 600;
+	font-weight: 600;
 	font-size: 24px;
 	line-height: 36px;
+	position: absolute;
+	width: 129px;
+	left: 975px;
+	top: 3286px;
+	background: #1C1B21;
+}
+
+main button.buttonspot {
+	position: absolute;
+	left: 1144px;
+	top: 3289px;
+}
+
+main button.buttonapple {
+	position: absolute;
+	left: 1264px;
+	top: 3259px;
+	margin: 30px;
 }
 
 main button {
@@ -143,6 +478,11 @@ main h6.title2 {
 	line-height: 36px;
 	text-align: center;
 	color: #7A66CC;
+	position: absolute;
+	width: 316px;
+	height: 36px;
+	left: 802px;
+	top: 3867px;
 }
 
 main span {
@@ -174,20 +514,62 @@ main button.tickets {
 	color: #FFFFFF;
 }
 
-span.infoname {
+span.infoname1 {
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 27px;
-	text-align: right;
+	float: left;
 	text-transform: uppercase;
+	position: absolute;
+	width: 199px;
+	left: 693px;
+	top: 4955px;
+	background: #1C1B21;
 }
 
-footer span.info {
+span.infoname2 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	float: left;
+	text-transform: uppercase;
+	position: absolute;
+	width: 199px;
+	left: 840px;
+	top: 5000px;
+	background: #1C1B21;
+}
+
+footer span.info1 {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 27px;
 	text-transform: uppercase;
-	text-align: right;
+	position: absolute;
+	width: 304px;
+	left: 922px;
+	top: 4955px;
+	background: #1C1B21;
+}
+
+footer span.info2 {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	position: absolute;
+	width: 304px;
+	left: 922px;
+	top: 5000px;
+	background: #1C1B21;
+}
+
+footer div.icons {
+	position: absolute;
+	padding: 38px;
+	left: 693px;
+	top: 5077px;
+	background: #1C1B21;
 }
 
 small {
@@ -197,11 +579,10 @@ small {
 	text-align: center;
 	text-transform: uppercase;
 	opacity: 0.5;
+	position: absolute;
+	width: 166px;
+	left: 877px;
+	top: 5229px;
+	background: #1C1B21;
 }
 
-main img.announce {
-	width: 350px;
-	height: 280px;
-	left: 405px;
-	top: 4182px;
-}
